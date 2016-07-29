@@ -1,6 +1,6 @@
 ---
   - name: MIses à jour des machines en CentOS7
-    hosts: c
+    hosts: sappcb41.extra.cea.fr
     remote_user: root
 #    remote_user: administrator
 #    become: true
