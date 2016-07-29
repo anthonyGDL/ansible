@@ -1,6 +1,6 @@
 ---
   - name: MIses à jour des machines en CentOS7
-    hosts: u
+    hosts: c
     remote_user: root
 #    remote_user: administrator
 #    become: true
