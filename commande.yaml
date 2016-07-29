@@ -1,0 +1,10 @@
+---
+  - name: MIses à jour des machines en CentOS7
+    hosts: u
+    remote_user: root
+#    remote_user: administrator
+#    become: true
+    tasks:
+      - name: mise à jour du système
+        yum: name=* state=latest
+...
